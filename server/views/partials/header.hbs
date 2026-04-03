@@ -17,13 +17,6 @@
   <nav>
     <ul>
       {{#unless user}}
-        {{#unless login_disabled}}
-          <li>
-            <a class="button primary" href="/login" title="Log in or sign up">
-              Log in / Sign up
-            </a>
-          </li>
-        {{/unless}}
       {{/unless}}
       {{#if user}}
         <li>
